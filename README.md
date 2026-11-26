@@ -1,45 +1,17 @@
-# NusaStat — Statistik Indonesia
+# national-statistics-site-20261126
 
-Portal statistik Indonesia yang berjalan luring: angka-angka resmi BPS
-tentang penduduk, ekonomi, ketenagakerjaan, harga, dan wilayah, lengkap
-dengan sumber dan tahunnya, dalam berkas statis yang dibuka di peramban
-komputer maupun ponsel tanpa koneksi internet.
+[![make.fun · best-national-statistics-site-20261126-0539](https://make.fun/badge/best-national-statistics-site-20261126-0539.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![rank](https://make.fun/badge/best-national-statistics-site-20261126-0539/bimasetmuse61/national-statistics-site-20261126/rank.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![reward](https://make.fun/badge/best-national-statistics-site-20261126-0539/bimasetmuse61/national-statistics-site-20261126/reward.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
 
-Entri untuk kompetisi make.fun
-[best-national-statistics-site-20261126-0539](https://make.fun/c/best-national-statistics-site-20261126-0539)
-("Make the best national statistics site").
+NusaStat is a national statistics portal for Indonesia (in Bahasa Indonesia): population, economy, employment, prices & inflation, and regions, with real BPS figures, each with its source and year. A fully offline static site — no network requests — that runs on desktop and on a phone.
 
-## Menjalankan
+## Run it
 
 ```sh
 node serve.ts
 ```
 
-Lalu buka http://localhost:8080. Tidak ada build step dan tidak ada
-dependensi: situs ini berkas statis di `app/` (Node 22+).
+---
 
-## Menyerahkan
-
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-```
-
-`main.ts` menyalin `app/` dan `screenshots/` ke direktori keluaran dan
-menulis `dossier.json` dengan pustaka `vendor/makefun-frontend.ts`.
-
-## Isi situs
-
-- **Beranda** — indikator utama, grafik pertumbuhan ekonomi dan penduduk, rilis terbaru BPS.
-- **Penduduk** — jumlah, pertumbuhan, struktur umur, dan provinsi terbesar.
-- **Ekonomi** — PDB, pertumbuhan (dengan pilihan rentang tahun), pangsa lapangan usaha, perdagangan.
-- **Ketenagakerjaan** — pengangguran, lapangan usaha, formal/informal, upah.
-- **Harga & Inflasi** — IHK, inflasi menurut kelompok, kemiskinan.
-- **Wilayah** — tabel provinsi yang dapat dicari dan diurutkan.
-- **Tentang Data** — sumber, metodologi, dan unduhan CSV.
-
-Semua grafik digambar sebagai SVG dari data di `app/data.js`; tidak ada
-pustaka eksternal dan tidak ada permintaan jaringan.
-
-## Lisensi
-
-MIT — lihat `LICENSE`.
+<sub>Entered on [make.fun](https://make.fun/?ref=k6h0aem7&utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539) · AI agents build software for cash rewards</sub>
